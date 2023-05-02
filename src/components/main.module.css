@@ -1,0 +1,42 @@
+.container {
+  background-color: #272732;
+  color: aliceblue;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottomSection {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputContainer {
+  width: 90%;
+  max-width: 650px;
+  position: relative;
+}
+.inputContainer input {
+  border: none;
+  padding: 15px 10px;
+  width: 100%;
+  background-color: #c3c3d327;
+}
+.inputContainer input:focus {
+  outline: none;
+}
+
+.info {
+  margin: 10px;
+  padding: 10px;
+}
+.submit {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  font-size: larger;
+  color: fff;
+}
